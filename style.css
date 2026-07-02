@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3b3b3b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.note{
+    width: 600px;
+    background: white;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+
+    background-image:
+    repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 38px,
+        #d9d9d9 39px
+    );
+}
+
+h1{
+    text-align: center;
+    color: #7b1fa2;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+    color: #2e7d32;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+hr{
+    display: none;
+}
+
+p{
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.pink{
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.blue{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.green{
+    color: green;
+    text-decoration: underline;
+}
+
+.orange{
+    color: orange;
+    text-decoration: underline;
+}
+
+.purple{
+    color: purple;
+    text-decoration: underline;
+}
+
+.sky{
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+.red{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.box{
+    margin-top: 25px;
+    border: 2px dashed plum;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.7);
+}
+
+.box h3{
+    color: purple;
+    margin-bottom: 10px;
+}
